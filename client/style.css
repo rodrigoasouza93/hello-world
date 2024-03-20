@@ -1,0 +1,76 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input {
+  width: 100%;
+  height: 30px;
+  padding: 3px;
+  font-size: 15px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  text-indent: 4px;
+}
+select {
+  width: 100%;
+  height: 30px;
+  padding: 3px;
+  font-size: 15px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+}
+#form-lancamento {
+  position: fixed;
+  right: 20px;
+  width: 200px;
+  border: 1px solid #000;
+  padding: 10px;
+}
+button {
+  width: 100%;
+  height: 30px;
+  color: #fff;
+  background-color: black;
+  border: 0;
+  border-radius: 4px;
+}
+.tabela-lancamentos {
+  width: 600px;
+  background-color: #eee;
+  border-collapse: collapse;
+}
+.tabela-lancamentos td,
+.tabela-lancamentos th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.tabela-lancamentos tr:nth-child(even) {
+  background-color: #fff;
+}
+.tabela-lancamentos th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #ccc;
+  width: 50%;
+}
+.grafico {
+  width: 600px;
+  border: 1px solid #000;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.grafico-coluna {
+  width: 150px;
+}
+.grafico-coluna-cor {
+  height: 120px;
+  background-color: red;
+}
+.grafico-coluna-texto {
+  text-align: center;
+}
